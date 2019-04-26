@@ -6,4 +6,4 @@ Engenheiro de Software Full Stack, palestrante técnico, líder de comunidade, e
 
 ### Support or Contact
 
-Email: https://www.linkedin.com/in/abraaohonorio/
+Email: abraaohonoriopb@gmail.com
