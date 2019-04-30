@@ -1,115 +1,51 @@
 html,
 body {
-    height: 100%;
-}
-
-body {
-    background-image: url(../assets/images/background.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgba(199, 199, 199, 0.596);
-}
-
-div,
-body {
     margin: 0;
     padding: 0;
-    font-family: exo, sans-serif;
-}
-
-.wrapper {
     height: 100%;
-    width: 100%;
+    width: 99%;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+#container {
+    min-height: 100%;
+    position: relative;
 }
 
-a:visited {
-    text-decoration: none;
+#header {
+    height: 28px;
+    background: rgb(163, 170, 170);
+    width: 102% !important;
 }
 
-a:hover {
-    text-decoration: none;
+#body {
+    padding: 10px;
+    padding-bottom: 60px;
+    background: rgb(255, 255, 255);
+    /* Height of the footer */
 }
 
-a:focus {
-    text-decoration: none;
-}
-
-a:hover,
-a:active {
-    text-decoration: none;
-}
-
-h1 {
-    font-weight: 70;
-    letter-spacing: 3;
-    font-size: 25px;
-}
-
-p {
-    font-weight: 100;
-    letter-spacing: 1;
-    color: rgb(255, 255, 255);
-}
-
-.bio {
-    font-weight: bold !important;
-    font-size: 100%;
-}
-
-.container {
-    font-family: "Roboto", sans-serif;
-    font-size: 85%;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.profile-box {
-    width: 750px;
-    height: 400px;
-    background: rgba(0, 6, 8, 0.808);
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    margin: 0 auto;
-    margin-top: 65px;
-    text-align: center;
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 102% !important;
+    height: 60px;
+    /* Height of the footer */
+    background: #6cf;
 }
 
 .profile-pic {
     border-radius: 80%;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-style: solid;
-    border-color: rgb(250, 249, 249);
+    border-color: rgb(190, 187, 187);
 }
 
-.line-break {
-    width: 500px;
-    border-top: 1.0px solid white;
-    margin: 0 auto;
-    display: inline-flex;
+.fa-frog {
+    color: rgb(255, 255, 255);
 }
 
-.social-icons {
-    font-size: 50px;
-}
-
-.social-icons a {
-    color: white;
-}
-
-.footer-box {
-    width: 600px;
-    height: 110px;
-    background: rgba(0, 6, 8, 0.808);
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: center;
+.p {
+    text-align: justify;
+    text-justify: inter-word;
 }
